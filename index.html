@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/all.css">       
+         <title>CALCULATOR</title>
+    </head>
+    <body>
+        <main class="main_container">
+            <section class="calc_container">
+                <div class="Calc_body" id="calculator">
+                    <div class="text_area" id="display">
+                        <p class="inner_html" id='answer'>
+                            0
+                        </p>
+                    </div>
+                    <div class="number_operater_container" id="keys">
+                        <div class="operater_container" >
+                            <div class="operater" data-action="add">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <div class="operater" data-action="subtract">
+                                <i class="fas fa-minus"></i>
+                            </div>
+                            <div class="operater" data-action="multiply">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="operater"  data-action="divide">
+                                <i class="fas fa-divide"></i>
+                            </div>
+                        </div>
+                        <div class="number_container">
+                            <div class="number_box">
+                                <div class="numbers">
+                                    <p class="number_item">9
+                                </p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">8</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">7</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">6</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">5</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">4</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">3</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">2</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">1</p>
+                                </div>
+                                <div class="numbers">
+                                    <p class="number_item">0</p>
+                                </div>
+                                <div class="numbers" data-action="decimal">
+                                    <p class="number_item">.</p>
+                                </div>
+                                <div class="numbers" data-action="clear">
+                                    <p class="number_item">c</p>
+                                </div>
+                            </div>
+                            <div class="equals" data-action="calculate">
+                                <i class="fas fa-equals"></i>                          </div>               
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>
